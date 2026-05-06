@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-6xl w-full px-4 sm:px-6 pb-24 flex flex-col min-h-screen">
+    <div className="mx-auto max-w-6xl w-full px-4 sm:px-6 pb-0 flex flex-col min-h-screen">
       <Navbar />
       <main className="mt-32 sm:mt-36 flex flex-col gap-12 w-full">
         <Hero />

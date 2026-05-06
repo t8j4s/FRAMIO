@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 
 export default function Legal() {
   return (
-    <div className="mx-auto max-w-6xl w-full px-4 sm:px-6 pb-24 flex flex-col min-h-screen">
+    <div className="mx-auto max-w-6xl w-full px-4 sm:px-6 pb-0 flex flex-col min-h-screen">
       <Navbar />
       <main className="mt-32 sm:mt-36 flex-1 w-full">
         <div className="bg-white p-8 sm:p-12 md:p-24 rounded-[32px] border border-zinc-100 flex flex-col items-start text-left max-w-4xl mx-auto">

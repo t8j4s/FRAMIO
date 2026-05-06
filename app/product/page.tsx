@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Product() {
   return (
-    <div className="mx-auto max-w-6xl w-full px-4 sm:px-6 pb-12 md:pb-24 flex flex-col min-h-screen">
+    <div className="mx-auto max-w-6xl w-full px-4 sm:px-6 pb-0 flex flex-col min-h-screen">
       <Navbar />
       <main className="mt-28 sm:mt-36 flex-1 w-full">
         <div className="bg-black text-white p-6 sm:p-12 md:p-24 rounded-[24px] sm:rounded-[32px] shadow-xl flex flex-col items-center text-center">
