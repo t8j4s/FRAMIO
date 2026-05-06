@@ -53,9 +53,9 @@ export default function Pricing() {
       {plans.map((plan, idx) => (
         <div 
           key={idx} 
-          className={`relative flex flex-col p-8 sm:p-10 rounded-[32px] ${
+          className={`relative flex flex-col p-8 sm:p-10 rounded-[32px] max-w-lg mx-auto lg:max-w-none w-full ${
             plan.highlighted 
-              ? "bg-black text-white shadow-2xl shadow-black/10 scale-100 md:scale-105 z-10" 
+              ? "bg-black text-white shadow-2xl shadow-black/10 z-10" 
               : "bg-white text-zinc-900 border border-zinc-200"
           }`}
         >
