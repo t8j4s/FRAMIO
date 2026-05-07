@@ -13,7 +13,8 @@ export default function Pricing() {
         "5-day turnaround"
       ],
       highlighted: false,
-      cta: "Get Started"
+      cta: "Get Started",
+      href: "https://www.paypal.com/ncp/payment/WQBQDABM3N8DW"
     },
     {
       name: "GROWTH",
@@ -29,7 +30,8 @@ export default function Pricing() {
       ],
       highlighted: true,
       popular: "★ MOST POPULAR",
-      cta: "Get Started"
+      cta: "Get Started",
+      href: "https://www.paypal.com/ncp/payment/LGAEXRSGG3KBG"
     },
     {
       name: "AUTHORITY",
@@ -44,7 +46,8 @@ export default function Pricing() {
         "48hr turnaround"
       ],
       highlighted: false,
-      cta: "Get Started"
+      cta: "Get Started",
+      href: "https://www.paypal.com/ncp/payment/S2D83XGLDF8FU"
     }
   ];
 
@@ -81,7 +84,7 @@ export default function Pricing() {
           </ul>
           
           <a 
-            href="https://calendly.com/thecreatorleads/15min"
+            href={plan.href || "https://calendly.com/thecreatorleads/15min"}
             target="_blank"
             rel="noopener noreferrer"
             className={`w-full py-4 block text-center text-sm md:text-base font-bold rounded-xl transition-transform hover:scale-105 ${
@@ -90,7 +93,7 @@ export default function Pricing() {
                 : "border border-zinc-200 bg-white text-black hover:bg-zinc-50"
             }`}
           >
-            Get Started
+            {plan.cta || "Get Started"}
           </a>
         </div>
       ))}
