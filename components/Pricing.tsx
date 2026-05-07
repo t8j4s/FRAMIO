@@ -7,7 +7,7 @@ export default function Pricing() {
       price: "$497",
       description: "Creators just getting consistent\n5K–20K followers",
       features: [
-        "8 short-form video edits/mo",
+        "8 short-form video edits",
         "Captions + hashtags",
         "1 revision per video",
         "5-day turnaround"
@@ -21,8 +21,8 @@ export default function Pricing() {
       price: "$997",
       description: "Coaches & influencers scaling\n20K–100K followers",
       features: [
-        "16 short-form video edits/mo",
-        "4 long-form YouTube edits/mo",
+        "16 short-form video edits",
+        "4 long-form YouTube edits",
         "Thumbnails included",
         "Captions + hashtags",
         "2 revisions per asset",
@@ -38,8 +38,8 @@ export default function Pricing() {
       price: "$1,997",
       description: "Established personal brands\nFull delegation",
       features: [
-        "20 short-form video edits/mo",
-        "8 long-form YouTube edits/mo",
+        "20 short-form video edits",
+        "8 long-form YouTube edits",
         "Thumbnails + covers",
         "Captions + hashtags",
         "Dedicated editor + Slack access",
@@ -71,7 +71,7 @@ export default function Pricing() {
           <div className="text-sm sm:text-base md:text-lg font-bold mb-1 md:mb-2">{plan.name}</div>
           <div className="text-xs text-zinc-500 whitespace-pre-line mb-3 md:mb-4">{plan.description}</div>
           <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 md:mb-8 tracking-tight">
-            {plan.price}<span className={`text-sm md:text-base font-medium ${plan.highlighted ? "text-zinc-500" : "text-zinc-400"}`}>/mo</span>
+            {plan.price}
           </div>
           
           <ul className="mb-8 flex-1 space-y-3 md:space-y-4">
