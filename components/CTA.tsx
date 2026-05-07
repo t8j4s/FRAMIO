@@ -20,7 +20,7 @@ export default function CTA() {
             Get Started
           </Link>
           <a
-            href="https://calendly.com/thecreatorleads/15min"
+            href="https://calendar.app.google/urU7z5iQpERDAFTj8"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 rounded-xl border border-zinc-700 w-full sm:w-auto bg-black px-8 md:px-10 py-4 text-sm md:text-base font-bold text-white transition-all hover:bg-zinc-900 hover:scale-105"

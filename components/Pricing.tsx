@@ -84,7 +84,7 @@ export default function Pricing() {
           </ul>
           
           <a 
-            href={plan.href || "https://calendly.com/thecreatorleads/15min"}
+            href={plan.href || "https://calendar.app.google/urU7z5iQpERDAFTj8"}
             target="_blank"
             rel="noopener noreferrer"
             className={`w-full py-4 block text-center text-sm md:text-base font-bold rounded-xl transition-transform hover:scale-105 ${
